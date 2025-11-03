@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav">
+            <a href="index.html">Start</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="om-mig.html">Om mig</a>
+        </ul>
+    </nav>
+
+    <div class="rubrik">
+      <h2>Kontakta Oss</h2>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="img/kontakta-oss.webp" alt="" />
+      </div>
+
+      <div class="column">
+        <form action="/action_page.php" method="post">
+          <label for="fname">Namn</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Ditt namn.."
+          />
+
+          <label for="lname">Efternamn</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Ditt efternamn.."
+          />
+
+          <label for="subject">Meddelande</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Skriv din Meddelande.."
+            style="height: 170px"
+          ></textarea>
+
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Lorem ipsum dolor sit amet consectetur,</p>
+      <a href="">Instagram</a> | <a href="">Facebook</a> |
+      <a href="">Linkedin</a>
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* navbar */
+.nav{
+    background-color: black;
+    border: 4px solid rgb(255, 255, 255);
+    
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: large;
+
+    transition: background-color 0.2s ease-out, transform 0.4s ease-out;
+}
+
+.nav a:hover{
+    background-color: rgb(138, 138, 138);
+    transform: scale(1.05);
+}
+
+
+.navbar a:hover{
+    background-color: rgb(153, 157, 153);
+    transform: scale(1.05);
+}
+
+
+/* rubrik */
+.rubrik{
+    text-align: center;
+    font-size: x-large;
+
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+/* projektsidor */
+.projektsidor{
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidor{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/* img */
+.projektsidor img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sidor:hover{
+  transform: scale(1.1);
+}
+
+/* h */
+.projektsidor h3{
+    text-align: center;
+}
+
+.projektsidor h4{
+    text-align: center;
+    padding: 1rem;
+}
+
+/* footer */
+footer {
+  background-color: #100f0f;    
+  color: white;             
+  text-align: center;         
+  padding: 15px;             
+  font-size: 14px;            
+}
+
+footer a {
+  color: #f4f4f4;           
+  text-decoration: none;      
+  margin: 0 8px;             
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+/* media */
+@media (max-width: 450px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .projektsidor {
+    flex-direction: column;
+  }
+}
