@@ -87,6 +87,11 @@ body {
     padding: 1rem;
 }
 
+.sidor p{
+  text-align: center;
+  padding: 1rem;
+}
+
 /* footer */
 footer {
   background-color: #100f0f;    
@@ -125,4 +130,5 @@ footer {
     flex-direction: column;
   }
 }
+
 
